@@ -1,7 +1,7 @@
 <?php
 namespace Namespaces\_custom_;
 
-class NamespaceClass
+class NamespaceClass extends \Namespaces\_vendor_\NamespaceClass
 {
 	public function __construct()
 	{
