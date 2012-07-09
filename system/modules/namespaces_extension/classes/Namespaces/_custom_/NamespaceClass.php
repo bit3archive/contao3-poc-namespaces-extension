@@ -1,5 +1,5 @@
 <?php
-namespace Contao\Extension\Namespaces\_custom_;
+namespace Namespaces\_custom_;
 
 class NamespaceClass
 {
