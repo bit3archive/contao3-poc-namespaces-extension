@@ -12,11 +12,11 @@
 
 
 /**
- * Register the namespaces
+ * Register class mapping
  */
-ClassLoader::addNamespaceMappings(array
+ClassLoader::addClassMappings(array
 (
-	'Namespaces' => 'Namespaces\_custom_',
+	'Runtime\Namespaces\NamespaceClass' => 'Namespaces\Extension\NamespaceClass',
 ));
 
 
@@ -25,6 +25,5 @@ ClassLoader::addNamespaceMappings(array
  */
 ClassLoader::addClasses(array
 (
-	// _custom_
-	'Namespaces\_custom_\NamespaceClass' => 'system/modules/namespaces_extension/classes/Namespaces/_custom_/NamespaceClass.php',
+	'Namespaces\Extension\NamespaceClass' => 'system/modules/namespaces_extension/classes/Namespaces/Extension/NamespaceClass.php',
 ));
