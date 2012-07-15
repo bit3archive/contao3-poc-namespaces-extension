@@ -1,5 +1,5 @@
 <?php
-namespace Namespaces\Extension;
+namespace NamespacesExtension;
 
 /**
  * @Overwrite \Namespaces\NamespaceClass
