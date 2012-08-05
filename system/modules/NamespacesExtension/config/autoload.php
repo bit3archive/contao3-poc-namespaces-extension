@@ -12,9 +12,19 @@
 
 
 /**
- * Register class mapping
+ * Register class mappings
  */
-ClassLoader::addClassMappings(array
+RuntimeClassLoader::addClassMappings(array
 (
 	'Runtime\Namespaces\NamespaceClass' => 'NamespacesExtension\NamespaceClass',
+));
+
+
+/**
+ * Register the classes
+ */
+ClassLoader::addClasses(array
+(
+	// 
+	'NamespacesExtension\NamespaceClass' => 'system/modules/NamespacesExtension/NamespaceClass.php',
 ));
